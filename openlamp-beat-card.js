@@ -16,7 +16,7 @@
  * mobile-first. Degrades gracefully to a hint when the add-on entities are absent.
  */
 
-const VERSION = "0.2.1";
+const VERSION = "0.2.2";
 
 // The engine's colour vocabulary (beatsync COLORS_RGB / lamp.py). name → CSS colour +
 // localized label. Order matches the MQTT select `options`.
