@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="560" viewBox="0 0 640 560" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12141b"/>
+      <stop offset="1" stop-color="#0b0c12"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="640" height="560" fill="url(#bg)"/>
+
+  <!-- card -->
+  <g filter="url(#sh)">
+    <rect x="40" y="36" width="560" height="488" rx="18" fill="#171a22" stroke="#262b35"/>
+  </g>
+
+  <!-- header -->
+  <circle cx="92" cy="92" r="27" fill="#5560f0"/>
+  <text x="92" y="101" text-anchor="middle" font-size="24" fill="#fff">♫</text>
+  <text x="134" y="86" font-size="20" font-weight="700" fill="#e9ebf0">OpenLamp Beat</text>
+  <text x="134" y="107" font-size="13" fill="#8b92a1">Tes lampes clignotent sur le tempo Ableton Link.</text>
+  <circle cx="139" cy="126" r="4" fill="#34d08a"/>
+  <text x="150" y="130" font-size="12" font-weight="600" fill="#34d08a">Suivi du beat · Actif</text>
+
+  <!-- start/stop button -->
+  <rect x="64" y="150" width="512" height="46" rx="12" fill="none" stroke="#323845" stroke-width="1.5"/>
+  <text x="320" y="179" text-anchor="middle" font-size="15" font-weight="700" fill="#e9ebf0">■  Arrêter le beat</text>
+
+  <!-- effect -->
+  <text x="64" y="230" font-size="12" font-weight="700" letter-spacing="1" fill="#8b92a1">EFFET</text>
+  <g>
+    <rect x="64" y="242" width="163" height="54" rx="10" fill="none" stroke="#323845" stroke-width="1.5"/>
+    <text x="145" y="268" text-anchor="middle" font-size="14" font-weight="640" fill="#e9ebf0">☀ Pulse</text>
+    <text x="145" y="285" text-anchor="middle" font-size="10.5" fill="#8b92a1">Luminosité seule</text>
+    <rect x="238" y="242" width="163" height="54" rx="10" fill="#1c2140" stroke="#5560f0" stroke-width="1.5"/>
+    <text x="319" y="268" text-anchor="middle" font-size="14" font-weight="640" fill="#e9ebf0">⚡ Flash</text>
+    <text x="319" y="285" text-anchor="middle" font-size="10.5" fill="#8b92a1">Une couleur par temps</text>
+    <rect x="412" y="242" width="164" height="54" rx="10" fill="none" stroke="#323845" stroke-width="1.5"/>
+    <text x="494" y="268" text-anchor="middle" font-size="14" font-weight="640" fill="#e9ebf0">🔄 Cycle</text>
+    <text x="494" y="285" text-anchor="middle" font-size="10.5" fill="#8b92a1">Alterne les couleurs</text>
+  </g>
+
+  <!-- strong beat row -->
+  <text x="64" y="340" font-size="12" font-weight="700" letter-spacing="1" fill="#8b92a1">TEMPS FORT</text>
+  <g>
+    <circle cx="82" cy="372" r="20" fill="rgb(230,0,40)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="132" cy="372" r="20" fill="rgb(0,100,200)" stroke="#e9ebf0" stroke-width="2"/>
+    <circle cx="132" cy="372" r="24" fill="none" stroke="#5560f0" stroke-width="3"/>
+    <text x="132" y="379" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">✓</text>
+    <circle cx="182" cy="372" r="20" fill="rgb(0,200,80)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="232" cy="372" r="20" fill="rgb(255,210,0)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="282" cy="372" r="20" fill="rgb(255,125,0)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="332" cy="372" r="20" fill="rgb(150,70,170)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="382" cy="372" r="20" fill="rgb(255,130,170)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="432" cy="372" r="20" fill="rgb(0,200,200)" stroke="#262b35" stroke-width="2"/>
+  </g>
+
+  <!-- weak beats row -->
+  <text x="64" y="428" font-size="12" font-weight="700" letter-spacing="1" fill="#8b92a1">TEMPS FAIBLES</text>
+  <g>
+    <circle cx="82" cy="460" r="20" fill="rgb(230,0,40)" stroke="#e9ebf0" stroke-width="2"/>
+    <circle cx="82" cy="460" r="24" fill="none" stroke="#5560f0" stroke-width="3"/>
+    <text x="82" y="467" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">✓</text>
+    <circle cx="132" cy="460" r="20" fill="rgb(0,100,200)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="182" cy="460" r="20" fill="rgb(0,200,80)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="232" cy="460" r="20" fill="rgb(255,210,0)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="282" cy="460" r="20" fill="rgb(255,125,0)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="332" cy="460" r="20" fill="rgb(150,70,170)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="382" cy="460" r="20" fill="rgb(255,130,170)" stroke="#262b35" stroke-width="2"/>
+    <circle cx="432" cy="460" r="20" fill="rgb(0,200,200)" stroke="#262b35" stroke-width="2"/>
+  </g>
+
+  <text x="64" y="504" font-size="11.5" fill="#616879">Bleu sur le temps fort · rouge sur le reste — configurable en direct, sans redémarrage.</text>
+</svg>

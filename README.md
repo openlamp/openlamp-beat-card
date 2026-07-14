@@ -15,6 +15,8 @@ lands on the next beat with no restart.
 Pure client-side: a self-contained vanilla web component — no build step, theme-aware (light & dark),
 mobile-first. It degrades gracefully to a hint when the add-on isn't running.
 
+![OpenLamp Beat Card preview](images/preview.svg)
+
 ---
 
 ## What you need
