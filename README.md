@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="OpenLamp Beat Card" width="100%"></p>
+
 # OpenLamp Beat Card
 
 > **You have Ableton Live and Home Assistant? Make your lamps flash on the tempo.**
@@ -90,9 +92,9 @@ entities:
 
 ## Part of OpenLamp
 
-- Add-on: [openlamp/ha-addon-beat](https://github.com/openlamp/openlamp-addon-beat)
-- Engine: [openlamp/engine](https://github.com/openlamp/openlamp-engine-python) · beatsync: [openlamp/midi](https://github.com/openlamp/openlamp-lib-beatsync)
-- Companion card for WLED palettes/effects: [openlamp/wled-assets-card](https://github.com/openlamp/openlamp-card-wled-assets)
+- Add-on: [openlamp/openlamp-addon-beat](https://github.com/openlamp/openlamp-addon-beat)
+- Engine: [openlamp/openlamp-engine-python](https://github.com/openlamp/openlamp-engine-python) · beatsync: [openlamp/openlamp-lib-beatsync](https://github.com/openlamp/openlamp-lib-beatsync)
+- Companion card for WLED palettes/effects: [openlamp/openlamp-card-wled-assets](https://github.com/openlamp/openlamp-card-wled-assets)
 
 ## License
 
