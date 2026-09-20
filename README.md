@@ -2,7 +2,7 @@
 
 > **You have Ableton Live and Home Assistant? Make your lamps flash on the tempo.**
 
-A Lovelace control panel for the [**OpenLamp Beat** add-on](https://github.com/openlamp/ha-addon-beat) —
+A Lovelace control panel for the [**OpenLamp Beat** add-on](https://github.com/openlamp/openlamp-addon-beat) —
 it turns the add-on's raw entities (a switch + three selects) into a one-tap surface: a pulsing
 metronome toggle, the effect as pills, a one/two-colour mode, and colour swatches. Every tap calls
 the matching `switch`/`select` service, and the add-on re-issues the beat **live** — a colour change
@@ -21,7 +21,7 @@ mobile-first. It degrades gracefully to a hint when the add-on isn't running.
 
 ## What you need
 
-1. The **[OpenLamp Beat add-on](https://github.com/openlamp/ha-addon-beat)** installed and started
+1. The **[OpenLamp Beat add-on](https://github.com/openlamp/openlamp-addon-beat)** installed and started
    (it publishes the entities this card drives, via MQTT discovery). The add-on itself needs the
    **Mosquitto** broker add-on and one or more **WLED** lamps.
 2. An **Ableton Link** session on your LAN (Ableton Live, or any Link-capable app) — that's the tempo.
@@ -90,9 +90,9 @@ entities:
 
 ## Part of OpenLamp
 
-- Add-on: [openlamp/ha-addon-beat](https://github.com/openlamp/ha-addon-beat)
-- Engine: [openlamp/engine](https://github.com/openlamp/engine) · beatsync: [openlamp/midi](https://github.com/openlamp/midi)
-- Companion card for WLED palettes/effects: [openlamp/wled-assets-card](https://github.com/openlamp/wled-assets-card)
+- Add-on: [openlamp/ha-addon-beat](https://github.com/openlamp/openlamp-addon-beat)
+- Engine: [openlamp/engine](https://github.com/openlamp/openlamp-engine-python) · beatsync: [openlamp/midi](https://github.com/openlamp/openlamp-lib-beatsync)
+- Companion card for WLED palettes/effects: [openlamp/wled-assets-card](https://github.com/openlamp/openlamp-card-wled-assets)
 
 ## License
 
