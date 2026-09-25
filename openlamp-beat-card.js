@@ -16,7 +16,10 @@
  * mobile-first. Degrades gracefully to a hint when the add-on entities are absent.
  */
 
-const VERSION = "0.2.2";
+// Must match the git tag of the release that ships this file — it is what the console
+// banner reports, so a stale value sends users' bug reports against the wrong version
+// (spotted by @frenck reviewing hacs/default#9193: file said 0.2.2, release was v0.2.3).
+const VERSION = "0.2.4";
 
 // The engine's colour vocabulary (beatsync COLORS_RGB / lamp.py). name → CSS colour +
 // localized label. Order matches the MQTT select `options`.
