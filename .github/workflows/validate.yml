@@ -6,8 +6,14 @@ on:
                           # (otherwise the release predates its own run, failing hacs/default's
                           #  "release created after a successful validation" check)
   pull_request:
-  schedule:
-    - cron: "0 6 * * 1"   # weekly, so HACS/action drift is caught even without commits
+  # No schedule: — deliberately. A `schedule:` trigger is the ONLY thing that makes a
+  # workflow eligible for GitHub's "disabled after 60 days of repository inactivity", and
+  # that disables the WHOLE workflow, push validation included. This bit us on 2026-09-25:
+  # the weekly cron went silent, GitHub switched Validate off, and a push then produced no
+  # run at all — silently breaking hacs/default's "release created after a successful
+  # validation" contract. The cron only survived in repos active enough not to need it, and
+  # died in the quiet ones it was meant to cover. Without it, push/PR validation is
+  # permanent. Run `gh workflow run Validate --ref main` for an on-demand drift check.
   workflow_dispatch:
 
 jobs:
